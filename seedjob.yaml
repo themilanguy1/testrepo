@@ -1,0 +1,121 @@
+---
+- projecttitle: android
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/android-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/android-dsl.git
+  jobbranch: 911b16ab5bb489056318bc7c07c39233fd1b89b6
+
+- projecttitle: angular-job-dsl
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/angular-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/angular-job-dsl.git
+  jobbranch: b4eedfc62d6a442eaa55525b8df6f02afde53b92
+
+- projecttitle: composer-job-dsl
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/composer-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/composer-job-dsl.git
+  jobbranch: 6f3afc4d50a0de773343e9815b0a51b3873227b2
+
+- projecttitle: containerjobs
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/container-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/container-jobs.git
+  jobbranch: b55d19d92eac2e9bdc533eb39dce9fd32e6679ea
+
+- projecttitle: dashing
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/dashing-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/dashing-job-dsl.git
+  jobbranch: c20b5a3429c22e1eea967e2f8b14e3c9b12982b8
+
+- projecttitle: drupal8
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/drupal-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/drupal8-dsl.git
+  jobbranch: 81d4f6df93730d5b09aac5a413fb7b946b0c4ad4
+
+- projecttitle: hubot
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/hubot-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/hubot-job-dsl.git
+  jobbranch: 35e51fe5962ece3ab27895fa82dcda9081ab0f82
+
+- projecttitle: java
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/java-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/java-pipeline.git
+  jobbranch: 62be30fca9dccad195f270658b77ec73cc322122
+
+- projecttitle: jekyll
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/jekyll-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuitsprojects/inuits-eu-website/inuits-eu-2016/inuits2016-pipeline.git
+  jobbranch: 1f4d410506a35b3453a8c23acc7f4fa914d89709
+
+- projecttitle: kanbanuits
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/kanbanuits-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/kanbanuits-jobdsl.git
+  jobbranch: 7b7d5efb699afd2fbbc1ac7b6508a4c22451dd4c
+
+- projecttitle: mirrors
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/mirrors-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/mirror-jobs.git
+  jobbranch: 4536c2e6a46b7de1020da0ed34ce379a6d00f3fb
+
+- projecttitle: mkdocs
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/mkdocs-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/mkdocs-jobs.git
+  jobbranch: 7d050ec4cf81f10e101e2a419a3c40a6788000b7
+
+- projecttitle: nagios-plugins
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/nagios-plugins-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/nagios-plugins-dsl.git
+  jobbranch: 467843d17c83eea0d2337c1594210c55bf01f13f
+
+- projecttitle: package-job
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/package-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/package-jobs.git
+  jobbranch: 0bc2bcd7653ca045b421d11903b3474223f9ea40
+
+- projecttitle: php-satis-publisher
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/php-satis-publisher-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/php-satis-publisher.git
+  jobbranch: ece1a779379de05d0393b17da20cd8400037162b
+
+- projecttitle: pulp
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/pulp-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/pulp-job-dsl.git
+  jobbranch: 7fbd3f9acd1264d5143f4a1d268ead4527298f60
+
+- projecttitle: puppetry
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/puppetry-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/puppetry-job-dsl.git
+  jobbranch: 493ef867c1d684669388b45838573248b1e71d5c
+
+- projecttitle: python
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/python-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuitsprojects/yayata/yayata-pipelines.git
+  jobbranch: bf35d594b2380fe5a9d090c17dcaba9a33bd00cd
+
+- projecttitle: python-nexus-publisher
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/python-nexus-publisher-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/python-publish.git
+  jobbranch: 0362cdbc632357c75271d5791bfdbf03819b21fc
+
+- projecttitle: rubygems
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/rubygems-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/rubygems-jobdsl.git
+  jobbranch: dd84df8af6a5de9570c844f34c66afbfef1d0181
+
+- projecttitle: vkc-blacklight
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/blacklight-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/blacklight-job-dsl.git
+  jobbranch: 98dc579b4b3b905aea494014ee75aa8b4d02d165
+
+- projecttitle: vkc-catmandu
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/catmandu-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/catmandu-job-dsl.git
+  jobbranch: 555bb937dc5ecbd53c256b84436d5e413525cafd
+
+- projecttitle: vkc-collective-access
+  configrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/collective_access-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/collective_access-job-dsl.git
+  jobbranch: e55ac2b102138b940ab7419dd55d1f047346617b
+
+- projecttitle: performance-jobs
+  configrepo:  ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/performance-config-dsl.git
+  jobrepo: ssh://git@redmine.inuits.eu:2223/inuits/inuits-infra/jenkinsjobdsl/performance-job-dsl.git
+  jobbranch: 56cb30cbe7805c870983a2d6646e56336a204904 
+
